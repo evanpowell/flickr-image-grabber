@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flickr Image Grab</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Flickr Image Grabber</h1>
+        <p class="title-sub">Evan Powell</p>
+    </header>
+
+    <div class="main">
+        <div class="images">
+            <form class="image-search" id="imageSearchForm">
+                <label for="imageSearchInput" class="image-search--label">Search Images</label>
+                <input id="imageSearchInput" type="text" class="image-search--input">
+                <button id="imageSearchSubmit" type="submit" class="submit">Search</button>
+            </form>
+    
+            <div id="imageList" class="image-list">
+    
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p class="footer-text">Images retrieved using the Flickr Public API</p>
+        <p class="footer-text">Designed for the Kapsch Interview Process</p>
+        <p class="footer-text">4/21/2020</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
